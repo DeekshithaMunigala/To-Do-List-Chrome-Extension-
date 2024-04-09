@@ -4,10 +4,6 @@
 
 This Chrome extension provides a simple to-do list functionality directly within your browser. Stay organized and manage your tasks without leaving your current tab.
 
-## Demo
-
-You can try out the app live [here](https://to-do-list-pink-alpha.vercel.app/)
-
 ## Features
 
 - **Easy Task Management:** Add, mark as completed, and remove tasks effortlessly.
