@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("marble.jpg");
+    background-size: cover;
+}
+
+.container {
+    margin: 4.5rem auto;
+    height: auto;
+    width: 500px;
+    background-color: #fa6ea6;
+    border-radius: 0.85rem;
+    padding-bottom: 1rem;
+}
+
+.container h1 {
+    padding-top: 1rem;
+}
+
+#con-h3 {
+    margin-top: 1rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.task {
+    margin-top: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputText {
+    height: 1.5rem;
+    width: 60%;
+    border: none;
+    border-radius: 0.3rem;
+    margin-right: 5px;
+    font-size: 1rem;
+}
+
+#btn {
+    height: 1.7rem;
+    width: 10%;
+    line-height: 0.25rem;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+#btn:hover {
+    background-color: #65B741;
+    cursor: pointer;
+}
+
+.taskList {
+    width: 70%;
+    margin-top: 0.85rem;
+}
+
+#list {
+    list-style-type: none;
+}
+
+li {
+    margin-top: 0.75rem;
+    margin-left: 5.8rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-checkbox {
+    cursor: pointer;
+    width: 1.3rem; 
+    height: 1.3rem;
+} 
+
+.task-text {
+    font-size: 1.2rem;
+}
+
+.remove-btn {
+    height: 1.7rem;
+    width: 15%;
+    line-height: 0.25rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+}
+
+.remove-btn:hover {
+    background-color: #FF0000;
+}
